@@ -8,8 +8,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    var color: Int? = null
-    var name: String? = null
+    var color: Int = Color.RED
+    var name: String = "Ali"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,8 +37,8 @@ class MainActivity : AppCompatActivity() {
 
 //        on click button result
         btn_main_result.setOnClickListener {
-            tv_main_result.text = name?:""
-            tv_main_result.setTextColor(color?:Color.BLACK)
+            tv_main_result.text = name
+            tv_main_result.setTextColor(color)
         }
 
     }
