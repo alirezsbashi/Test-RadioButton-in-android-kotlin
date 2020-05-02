@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rdg_main_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp">
+
+        <RadioButton
+            android:id="@+id/rdb_main_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red"/>
+
+        <RadioButton
+            android:id="@+id/rdb_main_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green"/>
+
+        <RadioButton
+            android:id="@+id/rdb_main_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"/>
+
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rdg_main_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp">
+
+        <RadioButton
+            android:id="@+id/rdb_main_ali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ali"/>
+
+        <RadioButton
+            android:id="@+id/rdb_main_reza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reza"/>
+
+        <RadioButton
+            android:id="@+id/rdb_main_Alireza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alireza"/>
+
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_main_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="name"
+        android:layout_marginTop="60dp"
+        android:textSize="35dp"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:id="@+id/btn_main_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text="View Result"
+        android:textAllCaps="false"/>
+</LinearLayout>
