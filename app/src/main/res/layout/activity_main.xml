@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:textDirection="ltr"
+    android:layoutDirection="ltr">
 
     <RadioGroup
         android:id="@+id/rdg_main_color"
